@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>M.Rana portfulio</title>
+		<meta charset="utf-8"/>
+		<!-- favicon -->
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico"/>
+		<!-- fontawesome link 6.2.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+        <!-- wow.js link -->
+        <link rel="stylesheet" href="assets/css/animate.css">
+		<!-- Main stylesheet link -->
+		<link rel="stylesheet" href="assets/css/style.css"/>
+	</head>
+	<body>
+        <header>
+            <div class="container">
+                <nav class="navbar sticky">
+                    <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="Logo" title="Kevin."></a>
+                    <ul id="sidemenu">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#portfulio">My Work</a></li>
+                        <li><a href="#contact">contact</a></li>
+                       <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul> 
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav> 
+                <div class="header-content">
+                    <div class="header-text wow fadeInLeft">
+                        <p class="wow lightSpeedInRight">Web Designer & Developer</p>
+                        <h1>Hi, I'm<span> Masud Rana</span> From Bangladesh</h1>
+                    </div>
+                    <div class="header-img wow fadeInUpBig">
+                        <img src="assets/images/m.rana.png" alt="Header img" title="Masud Rana">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--== header section end ==-->
+
+        <!--== about section start ==-->
+        <section id="about">
+            <div class="container">
+               <div class="row">
+                    <div class="about-col-1 wow fadeInLeft">
+                        <img src="assets/images/about-img.png" alt="M.Rana img" title="Masud Rana">
+                    </div>
+                    <div class="about-col-2 wow fadeInUpBig">
+                        <h2 class="sec-title wow fadeInRight">About Me</h2>
+                        <p>Hellow. I'm Masud Rana. I'm a web developer. I am an enthusiastic, self-motivated, reliable, responsible and  hard  working person. I am a mature team worker and adaptable to all   challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                        <div class="tab-section">
+                            <div class="tab-title">
+                                <h3 class="tab-links active-link" onclick="opentab('skills')">Skills</h3>
+                                <h3 class="tab-links" onclick="opentab('expperience')">Expperience</h3>
+                                <h3 class="tab-links" onclick="opentab('education')">Education</h3>
+                                <h3 class="tab-links" onclick="opentab('course')">Related courses</h3>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul> 
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>Tailwind css</li>
+                                    <li>SASS</li>
+                                    <li>JAVA SCRIPT</li>
+                                    <li>JQuery</li>
+                                    <li>React</li>
+                                    <li>Basic Photoshop</li>
+                                    <li>git & github</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="expperience">
+                                <ul>
+                                    <li><span>2021 - Current</span><br/>UI/UX Design Training at ET Institute.</li>
+                                    <li><span>2019 - 2021</span><br/>Team lead at starApp LLC.</li>
+                                    <li><span>2017 - 2019</span><br/>UI/UX Design Excutive at Coin Digital Ltd.</li>
+                                    <li><span>2016 - 2017</span><br/>Internship at ekart eCommerce.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li>
+                                        <span>Degree (B.A) 2020</span><br/>govt. Bangabandhu College <br/>pallabi, mirpur-12, Dhaka
+                                    </li>
+                                    <li><span>HSC 2017</span><br/>Nageshwari Gov. College <br>Nageshwari, Kurigram</li>
+                                    <li><span>SSC 2015</span><br/>Nakhargang Heigh School <br>Nakhargang, Nageshwari, Kurigram</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="course">
+                                <ul>
+                                    <li><span>Web Design</span><br/> BASIS Institute of Technology Management (BITM)</li>
+                                    <li><span>web development</span><br/>programing-hero.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!--== about section end ==-->
+        
+        <!--== service section start ==-->
+        <section id="service">
+            <div class="container">
+                <h2 class="sec-title wow bounceInRight">What I Do?</h2>
+                <div class="service-list">
+                    <div class="wow fadeInLeft">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Convert HTML CSS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                    </div>
+                    <div class="wow fadeInUpBig">
+                        <i class="fa-brands fa-app-store"></i>
+                        <h3>Responsiv Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                    </div>
+                    <div class="wow fadeInRight">
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>Web development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis ab, illo enim laboriosam beatae debitis ducimus fuga sapiente nobis optio,</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--== service section end ==-->
+
+        <!--== portfulio section start ==-->
+        <section id="portfulio">
+            <div class="container">
+                <h2 class="sec-title wow fadeInRight">MY Work</h2>
+               <div class="work-list">
+                    <div class="work wow fadeInLeft">
+                        <img src="assets/images/work-1.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work wow fadeInUpBig">
+                        <img src="assets/images/work-2.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work wow fadeInRight">
+                        <img src="assets/images/work-3.png" alt="portfulio img">
+                        <div class="layer">
+                            <h3>Web App</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aspernatur consectetur amet, ducimus doloribus odio.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                        </div>
+                    </div>
+                </div>
+                <a class="btn" href="#">See More</a>
+            </div>
+        </section>
+        <!--== portfulio section end ==-->
+
+        <!--== contact section start ==-->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-inner">
+                    <div class="contact-left wow fadeInLeft">
+                        <h2 class="sec-title">contact Me</h2>
+                        <p><i class="fa-regular fa-paper-plane"></i><a href="mailto:rana552m@gmail.com">rana552m@gmail.com</a></p>
+                        <p><i class="fa-solid fa-phone"></i><a href="tel:+8801303566552">+8801303566552</a></p>
+                        <div class="social-icon">
+                            <a href="https://www.facebook.com/M.Rana552" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/masud0586/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/masud-rana-5b7760203/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a class="btn" href="#" download>Download Cv</a>
+                   </div>
+                   <div class="contact-right wow fadeInUpBig">
+                        <form  name="submit-to-google-sheet">
+                            <input type="text" name="Name" id="" placeholder="Your Name" required/>
+                            <input type="email" name="e-mail" id="" placeholder="Your E-mail" required/>
+                            <textarea name="Message" id="" rows="6" placeholder="Write Your Message"></textarea>
+                            <button class="btn" type="submit">Submit</button>
+                        </form>
+                        <span id="smg"></span>
+                   </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy M.Rana. Made with <i class="fa-solid fa-heart"></i> by Masud Rana</p>
+                </div>
+            </div>
+        </section>
+        <!--== contact section end ==-->
+
+        <!-- wow.js link -->
+        <script src="assets/js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!--== Java script link ==-->
+        <script src="assets/js/main.js"></script> 
+	</body>
+</html>
