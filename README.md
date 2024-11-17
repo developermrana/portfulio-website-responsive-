@@ -1,9 +1,9 @@
 # portfulio-website-responsive-
 
-# using
+## using
 
-*html
-*css
-*javascript
+* HTML
+* CSS
+* Javascript
 
-live link : https://mrana565.github.io/portfulio-website-responsive-/
+### live link : [https://mrana565.github.io/portfulio-website-responsive-/](https://mrana565.github.io/portfulio-website-responsive-/)
